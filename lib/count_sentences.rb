@@ -19,6 +19,7 @@ class String
     sentence_array.delete_if do |sentence|
       sentence.empty?
     end
+    binding.pry
     sentence_array.size
   end
 end
